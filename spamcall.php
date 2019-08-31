@@ -11,10 +11,28 @@ function send($phone){
         curl_close($ch);
                 echo $asw."\n";
 }
-echo "Subscribe RoniYT"; |lolcat
-echo "Author : RoniYT"; |lolcat
-echo "Masukan Nomor Target:"; |lolcat
+echo "Subscribe RoniYT\n\n";
+echo "Nomor\nInput : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
